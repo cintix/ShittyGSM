@@ -1,6 +1,6 @@
 # Mac files
 .DS_Store
-
+.pioenvs/
 # Prerequisites
 *.d
 
