@@ -1,6 +1,10 @@
 # Mac files
 .DS_Store
 .pioenvs/
+.gcc-flags.json
+.clang_complete
+.travis.yml
+
 # Prerequisites
 *.d
 
