@@ -37,3 +37,5 @@
 *.exe
 *.out
 *.app
+.pioenvs
+.piolibdeps
