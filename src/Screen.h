@@ -14,16 +14,22 @@ public:
   void toogleInterVal();
   void drawNextPhoneItem();
   void tooglePhoneItem();
+  void tooglePinItem();
+  void drawNextPinItem();
+  String getPinCode();
   String getPhoneNumber();
+  bool isPinCodeActive();
   int getInterval();
   int getMenuDisplay();
 private:
   String int_array_to_string(int int_array[], int size_of_array);
   void loadConfig();
   void saveConfig();
+  void drawLogo();
   void drawRootMenu();
   void drawIntervalMenu();
   void drawPhoneMenu();
+  void drawPinMenu();
 };
 
 #endif
