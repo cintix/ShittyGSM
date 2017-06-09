@@ -8,7 +8,8 @@ int BUTTON1_PIN = 3;
 int BUTTON2_PIN = 2;
 int currentMenuItem = 0;
 int currentMenuScreen = -1;
-long logoTimer =0;
+long logoTimer = 0;
+
 void setup() {
 
   pinMode(BUTTON1_PIN, INPUT);
